@@ -23,4 +23,19 @@
         }
         
     }
+    &--no-padding-until-medium {
+
+        @mixin atMedium {
+            padding-left: 18px;
+            padding-right: 18px;
+        }
+    }
+
+     &--no-padding-until-large {
+
+        @mixin atLarge {
+            padding-left: 18px;
+            padding-right: 18px;
+        }
+    }
 }
