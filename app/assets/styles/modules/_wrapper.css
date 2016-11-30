@@ -30,6 +30,9 @@
             padding-right: 18px;
         }
     }
+    &--narrow {
+        max-width:470px;
+    }
 
      &--no-padding-until-large {
 
