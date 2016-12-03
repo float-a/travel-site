@@ -44,7 +44,6 @@ export default class StickyHeader {
         var that = this;
 
         this.pageSections.each(function() {
-            console.log(this);
             var currentPageSection = this;
             
             new Waypoint({ 

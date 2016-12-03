@@ -5,7 +5,7 @@ export default class Modal {
         this.openModalButton = $(".open-modal");
         this.modal = $(".modal");
         this.closeModalButton = $(".modal__close");
-        this.events();
+        this.events(); 
     }
 
     events() {
